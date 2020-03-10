@@ -216,15 +216,17 @@
 
         .scrolling-wrapper {
             position: relative;
-            margin-left: 3.00em;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
             margin-top: 4.813em;
+            padding-bottom: .447em;
             overflow-x: scroll;
             overflow-y: hidden;
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
 
             @include media-breakpoint-down(xs) {
-                margin-left: 1.5em;
+                padding-left: 1.5em;
             }
 
             .card {
@@ -236,7 +238,7 @@
                 border: 0;
                 border-radius: 16px;
                 display: inline-block;
-                margin-left: 1.25em;
+                margin-left: .875em;
                 
 
                 &:first-child {
@@ -324,11 +326,51 @@
     position: relative;
     padding: 4.000em 1.0em;
 
-    .image {
+    &_content {
         position: relative;
 
-        img {
-            width: 100%;
+        .header-3 {
+            font-size: 2.188em;
+
+            @include media-breakpoint-down(xl) {
+                font-size: 2em;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.25em;
+            }
+
+        }
+    
+        .image {
+            position: relative;
+    
+            img {
+                width: 100%;
+            }
+        }
+
+        .phoneImages {
+            position: relative;
+
+            .phoneImage {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    margin: auto;
+                    width: 300px;
+                }
+
+                p {
+                    position: relative;
+                    font-size: 0.938em;
+                    text-align: center;
+                    margin-bottom: 0;
+                    top: -3.75em;
+                }
+            }
         }
     }
 }
