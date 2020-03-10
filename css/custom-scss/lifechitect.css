@@ -9958,6 +9958,17 @@ h3 {
   background: linear-gradient(0deg, #27B072, #27B072);
 }
 
+.work {
+  position: relative;
+  padding: 4em 1em;
+}
+.work .image {
+  position: relative;
+}
+.work .image img {
+  width: 100%;
+}
+
 .score {
   position: relative;
   padding: 4em 1em 1em 1em;
@@ -10024,6 +10035,95 @@ h3 {
 @media (max-width: 1199.98px) {
   .testimonial {
     padding: 5.125em 1.5em 8.125em 1.5em;
+  }
+}
+.testimonial_content {
+  position: relative;
+}
+.testimonial_content .header-3 {
+  font-size: 2.188em;
+  font-size: 2em;
+}
+@media (max-width: 767.98px) {
+  .testimonial_content .header-3 {
+    font-size: 1.25em;
+  }
+}
+
+.activity {
+  position: relative;
+  padding: 6.25em 1.5em 4.25em 1.5em;
+  background-color: #EBFFF4;
+}
+.activity_content {
+  position: relative;
+  align-items: center;
+}
+.activity_content .header_container {
+  position: relative;
+  width: 90%;
+  max-width: 420px;
+  height: 82px;
+  background-color: #294948;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media (max-width: 575.98px) {
+  .activity_content .header_container {
+    height: 56px;
+  }
+}
+.activity_content .header_container .header {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.375em;
+  margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+  .activity_content .header_container .header {
+    font-size: 1.125em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .activity_content .header_container .header {
+    font-size: 1em;
+  }
+}
+.activity_content .countdown {
+  position: relative;
+  text-align: center;
+  margin-top: 4em;
+}
+@media (max-width: 575.98px) {
+  .activity_content .countdown {
+    margin-top: 3em;
+  }
+}
+.activity_content .countdown .counter {
+  position: relative;
+  font-size: 8em;
+  font-style: normal;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+  .activity_content .countdown .counter {
+    font-size: 3.25em;
+  }
+}
+.activity_content .countdown .time {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.875em;
+  letter-spacing: 0.14em;
+  font-weight: 200;
+}
+@media (max-width: 575.98px) {
+  .activity_content .countdown .time {
+    font-size: 1.125em;
   }
 }
 

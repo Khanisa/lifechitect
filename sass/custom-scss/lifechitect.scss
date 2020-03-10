@@ -320,7 +320,18 @@
     }
 }
 
+.work {
+    position: relative;
+    padding: 4.000em 1.0em;
 
+    .image {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+    }
+}
 
 .score {
     position: relative;
@@ -390,6 +401,101 @@
 
     @include media-breakpoint-down(lg) { 
         padding: 5.125em 1.5em 8.125em 1.5em;
+    }
+
+    &_content {
+        position: relative;
+
+        .header-3 {
+            font-size: 2.188em;
+
+            @include media-breakpoint-down(xl) {
+                font-size: 2em;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 1.25em;
+            }
+
+        }
+    }
+}
+
+.activity {
+    position: relative;
+    padding: 6.25em 1.5em 4.25em 1.5em;
+    background-color: #EBFFF4;
+
+    &_content {
+        position: relative;
+        align-items: center;
+
+        .header_container {
+            position: relative;
+            width: 90%;
+            max-width: 420px;
+            height: 82px;
+            background-color: #294948;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+            @include media-breakpoint-down(xs) {
+                height: 56px;
+            }
+
+            .header {
+                color: #FFFFFF;
+                font-weight: 400;
+                font-size: 1.375em;
+                margin-bottom: 0;
+
+                @include media-breakpoint-down(xs) {
+                    font-size: 1.125em;
+                }
+
+                @media screen and (max-width: 360px) {
+                    font-size: 1em;
+                }
+            }
+        }
+
+        .countdown {
+            position: relative;
+            text-align: center;
+            margin-top: 4em;
+
+            @include media-breakpoint-down(xs) {
+                margin-top: 3em;
+            }
+
+
+            .counter {
+                position: relative;
+                font-size: 8em;
+                font-style: normal;
+                font-weight: 200;
+                margin-bottom: 0;
+
+                @include media-breakpoint-down(xs) {
+                    font-size: 3.25em;
+                }
+            }
+
+            .time {
+                position: relative;
+                text-transform: uppercase;
+                font-size: 1.875em;
+                letter-spacing: 0.14em;
+                font-weight: 200;
+
+                @include media-breakpoint-down(xs) {
+                    font-size: 1.125em;
+                }
+            }
+        }
     }
 }
 
