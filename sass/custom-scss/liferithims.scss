@@ -148,7 +148,7 @@
             }
 
             @include media-breakpoint-down(sm) {
-                font-size: 1em;
+                font-size: .9em;
             }
         }
     }
@@ -223,7 +223,7 @@
                 }
     
                 @include media-breakpoint-down(sm) {
-                    font-size: 1em;
+                    font-size: .9em;
                 }
             }
 
@@ -351,7 +351,7 @@
                 }
     
                 @include media-breakpoint-down(sm) {
-                    font-size: 1em;
+                    font-size: .9em;
                 }
             }
 

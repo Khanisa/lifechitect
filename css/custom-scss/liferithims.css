@@ -9811,7 +9811,7 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .about_content .bodyText {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 
@@ -9885,7 +9885,7 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .work_content .bodyText p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 .work_content .bodyText button {
@@ -10012,7 +10012,7 @@ h3 {
 }
 @media (max-width: 767.98px) {
   .lifechitecture_content .bodyText p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 }
 .lifechitecture_content .bodyText button {
