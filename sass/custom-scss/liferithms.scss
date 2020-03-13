@@ -22,16 +22,17 @@
 
     &_content {
         position: relative;
-        padding: 6.25em 0;
+        padding: 3em 0 6.25em 0;
         align-self: center;
 
         &_text {
             font-size: 5.00em;
             color: $green;
+            font-weight: 300;
 
             span {
                 font-family: 'Muli', sans-serif;
-                font-weight: 700;
+                font-weight: 800;
             }
 
             @include media-breakpoint-down(lg) {
@@ -124,6 +125,8 @@
 
     &_content {
         position: relative;
+        color: rgba(41, 73, 72, .9);
+
 
         .header-3 {
             font-size: 2.188em;
@@ -141,10 +144,10 @@
         .bodyText {
             position: relative;
             margin-top: 2.500em;
-            font-size: 1.25em;
+            font-size: 1.563em;
 
             @include media-breakpoint-down(lg) {
-                font-size: 1.125em;
+                font-size: 1.25em;
             }
 
             @include media-breakpoint-down(sm) {
@@ -205,6 +208,8 @@
              }
 
             img {
+                width: 321px;
+                
                 @include media-breakpoint-down(md) {
                     width: 220px;
                 }
@@ -314,12 +319,14 @@
         .bodyText {
             position: relative;
             margin-top: 3em;
+            color: rgba(38, 50, 56, 0.9);
 
             @include media-breakpoint-down(md) {
                 text-align: center;
              }
 
             img {
+                width: 283px;
                 
                 @include media-breakpoint-down(md) {
                     width: 220px;

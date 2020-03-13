@@ -9694,16 +9694,17 @@ h3 {
 }
 .intro_content {
   position: relative;
-  padding: 6.25em 0;
+  padding: 3em 0 6.25em 0;
   align-self: center;
 }
 .intro_content_text {
   font-size: 5em;
   color: #17CE6A;
+  font-weight: 300;
 }
 .intro_content_text span {
   font-family: "Muli", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 @media (max-width: 1199.98px) {
   .intro_content_text {
@@ -9789,6 +9790,7 @@ h3 {
 }
 .about_content {
   position: relative;
+  color: rgba(41, 73, 72, 0.9);
 }
 .about_content .header-3 {
   font-size: 2.188em;
@@ -9802,11 +9804,11 @@ h3 {
 .about_content .bodyText {
   position: relative;
   margin-top: 2.5em;
-  font-size: 1.25em;
+  font-size: 1.563em;
 }
 @media (max-width: 1199.98px) {
   .about_content .bodyText {
-    font-size: 1.125em;
+    font-size: 1.25em;
   }
 }
 @media (max-width: 767.98px) {
@@ -9863,6 +9865,9 @@ h3 {
   .work_content .bodyText {
     text-align: center;
   }
+}
+.work_content .bodyText img {
+  width: 321px;
 }
 @media (max-width: 991.98px) {
   .work_content .bodyText img {
@@ -9976,11 +9981,15 @@ h3 {
 .lifechitecture_content .bodyText {
   position: relative;
   margin-top: 3em;
+  color: rgba(38, 50, 56, 0.9);
 }
 @media (max-width: 991.98px) {
   .lifechitecture_content .bodyText {
     text-align: center;
   }
+}
+.lifechitecture_content .bodyText img {
+  width: 283px;
 }
 @media (max-width: 991.98px) {
   .lifechitecture_content .bodyText img {
@@ -10156,4 +10165,4 @@ h3 {
   margin-top: 1em;
 }
 
-/*# sourceMappingURL=liferithims.css.map */
+/*# sourceMappingURL=liferithms.css.map */
