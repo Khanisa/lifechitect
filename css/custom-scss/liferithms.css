@@ -9694,8 +9694,13 @@ h3 {
 }
 .intro_content {
   position: relative;
-  padding: 3em 0 6.25em 0;
+  padding: 3em 0 8.25em 0;
   align-self: center;
+}
+@media (max-width: 767.98px) {
+  .intro_content {
+    padding: 3em 0 6.25em 0;
+  }
 }
 .intro_content_text {
   font-size: 5em;

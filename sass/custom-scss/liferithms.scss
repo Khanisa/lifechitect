@@ -22,8 +22,12 @@
 
     &_content {
         position: relative;
-        padding: 3em 0 6.25em 0;
+        padding: 3em 0 8.25em 0;
         align-self: center;
+
+        @include media-breakpoint-down(sm){
+            padding: 3em 0 6.25em 0;
+        }
 
         &_text {
             font-size: 5.00em;
