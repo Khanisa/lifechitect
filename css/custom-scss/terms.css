@@ -9671,7 +9671,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
-.navbar {
+.topNav {
   position: relative;
   width: 100%;
   height: 105px;
@@ -9679,47 +9679,47 @@ h3 {
   background: #EBFFF4;
 }
 @media (max-width: 1199.98px) {
-  .navbar {
+  .topNav {
     padding: 0 2.875em;
   }
 }
 @media (max-width: 991.98px) {
-  .navbar {
+  .topNav {
     padding: 0 1.875em;
   }
 }
-.navbar .navbar-brand {
+.topNav .navbar-brand {
   position: relative;
   z-index: 11111;
 }
-.navbar .navbar-brand img {
+.topNav .navbar-brand img {
   width: 204.34px;
   height: 40px;
 }
 @media (max-width: 575.98px) {
-  .navbar .navbar-brand img {
+  .topNav .navbar-brand img {
     width: 160px;
   }
 }
-.navbar .navbar-toggler {
+.topNav .navbar-toggler {
   color: #294948;
   z-index: 11111;
   padding: 0.25rem 0.5rem;
 }
-.navbar .navbar-toggler .navbar-toggler-icon {
+.topNav .navbar-toggler .navbar-toggler-icon {
   width: unset;
   height: unset;
   font-size: 1.3em;
 }
-.navbar .nav .nav-item .nav-link {
+.topNav .nav .nav-item .nav-link {
   color: #294948;
   opacity: 0.6;
   font-size: 1em;
 }
-.navbar .nav .nav-item .nav-link:hover {
+.topNav .nav .nav-item .nav-link:hover {
   opacity: 1;
 }
-.navbar #menu-content {
+.topNav #menuContent {
   position: absolute;
   width: 100%;
   top: 1em;
@@ -9727,47 +9727,47 @@ h3 {
   padding: 100px 1.875em 35px;
   z-index: 1000;
 }
-.navbar #menu-content .navbar-nav {
+.topNav #menuContent .navbar-nav {
   align-items: center;
 }
-.navbar #menu-content .navbar-nav .nav-item {
+.topNav #menuContent .navbar-nav .nav-item {
   height: 45px;
   width: 100%;
   text-align: center;
 }
-.navbar #menu-content .navbar-nav .nav-item .nav-link {
+.topNav #menuContent .navbar-nav .nav-item .nav-link {
   color: #294948;
   opacity: 0.6;
   font-size: 1em;
 }
 
-.intro {
+.headerText {
   position: relative;
   padding: 10em 1em;
   background: #EBFFF4;
 }
 @media (max-width: 767.98px) {
-  .intro {
+  .headerText {
     padding: 6.25em 1em;
   }
 }
-.intro_content {
+.headerText_content {
   position: relative;
   align-items: center;
 }
-.intro_content_text {
+.headerText_content_text {
   font-family: "SF-Pro-Display-Bold", sans-serif;
   font-weight: normal;
   font-size: 3em;
   color: #294948;
 }
 @media screen and (max-width: 912px) {
-  .intro_content_text {
+  .headerText_content_text {
     font-size: 2.5em;
   }
 }
 @media (max-width: 767.98px) {
-  .intro_content_text {
+  .headerText_content_text {
     font-size: 2.25em;
   }
 }

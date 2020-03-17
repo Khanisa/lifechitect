@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- nav -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar topNav" id="navbar">
         <a class="navbar-brand" href="lifechitect.html">
             <img src="svgs/lifechitect_full_logo.svg" alt="Lifechitect's logo">
           </a>
@@ -22,12 +22,12 @@
                 <a class="nav-link" href="privacy.html">Privacy Policy</a>
             </li>
         </ul>
-        <button class="navbar-toggler d-md-none" onclick="openMenu()" data-toggle="collapse" href="#menu-content" role="button" aria-expanded="false" aria-controls="menu-content">
+        <button class="navbar-toggler d-md-none" onclick="openMenu()" data-toggle="collapse" href="#menuContent" role="button" aria-expanded="false" aria-controls="menuContent">
             <span class="navbar-toggler-icon">
                 <i class="fas fa-bars"></i>
             </span>
         </button>
-        <div class="collapse navbar-collapse d-md-none" id="menu-content">
+        <div class="collapse navbar-collapse d-md-none" id="menuContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="terms.html">Term of Use</a>
@@ -41,10 +41,10 @@
     <!-- nav -->
 
     <!-- header -->
-    <section class="intro">
-        <div class="row intro_content">
+    <section class="headerText">
+        <div class="row headerText_content">
             <div class="col-12">
-                <h3 class="intro_content_text text-center">Terms of Use</h3>
+                <h3 class="headerText_content_text text-center">Terms of Use</h3>
             </div>
         </div>
     </section>
@@ -412,7 +412,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script>
     <script>
         function openMenu() {
-            var menu_content = document.getElementById("menu-content");
+            var menu_content = document.getElementById("menuContent");
             
             if (menu_content.classList.contains("show")) {
                 menu_content.style.boxShadow = "none";

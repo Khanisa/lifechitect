@@ -1,7 +1,7 @@
 @import "../custom-scss/base";
 
 
-.navbar {
+.topNav {
     position: relative;
     width: 100%;
     height: 105px;
@@ -54,7 +54,7 @@
         }
     }
 
-    #menu-content {
+    #menuContent {
         position: absolute;
         width: 100%;
         top: 1em;
@@ -80,7 +80,7 @@
     }
 }
 
-.intro {
+.headerText {
     position: relative;
     padding: 10em 1em;
     background: #EBFFF4;
